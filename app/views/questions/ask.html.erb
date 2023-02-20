@@ -1,7 +1,9 @@
-<h1>Stupid Coaching - ask </h1>
-<p>Formulate your question below: </p>
+<div class="d-flex flex-column align-items-center">
+  <h1 class="text-secondary m-4">Stupid Coaching - ask </h1>
+  <p class="text-info mb-2">Formulate your question below: </p>
 
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question" placeholder="question here">
-  <input type="submit" value="Ask!">
-</form>
+  <form action="/answer" data-turbo="false">
+    <input type="text" name="question" placeholder="What is your age?" class="font-italic">
+    <input type="submit" class="btn btn-info" value="Ask!">
+  </form>
+</div>
